@@ -1,0 +1,19 @@
+{
+    "name": "mayckol/ctresponse",
+    "description": "This will help you to control the http responses, simple to use, improvements are welcome.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mayckol",
+            "email": "mayckoll@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mayckol\\CtResponse\\": "src/"
+        }
+    }
+}
