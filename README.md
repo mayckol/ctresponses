@@ -7,6 +7,10 @@ laravel custom responses
 
 ##Usage
 
+Add service provider in config/app
+
+\Mayckol\CtResponse\CtResponseServiceProvider::class
+
 Publish config
 php artisan vendor:publish
 and select the correct option for (Provider: Mayckol\CtResponse\CtResponseServiceProvider)
