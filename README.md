@@ -59,7 +59,7 @@ Route::get('/', function () {
 //    return view('welcome');
     $jsonResponse = app(\Mayckol\CtResponse\app\Models\CtResponseJson::class);
     $factoryResponse = app(\Mayckol\CtResponse\app\CtResponseFactory::class);
-    return $fact::build($jsonResponse, config('response.json.fail_result.login'), ['status' => 200]);
+    return $factoryResponse::build($jsonResponse, config('response.json.fail_result.login'), ['status' => 200]);
 });
 
 ````
