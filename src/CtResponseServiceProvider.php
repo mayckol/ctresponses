@@ -12,13 +12,7 @@ class CtResponseServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/config/ctresponse.php' => config_path('response.php')
         ]);
-
-//        dd(config('response'));
-//        $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
     }
 
-    public function register()
-    {
-
-    }
+    public function register() {}
 }
